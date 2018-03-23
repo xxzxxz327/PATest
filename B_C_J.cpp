@@ -12,7 +12,7 @@ int main(){
     int a_win_most[3]={0},b_win_most[3]={0};
     scanf("%d",&n);
     while(n--){
-        getchar();
+        getchar();//使用scanf读入％ｃ会将换行符\n读入，需要用getchar()来吸收．
         scanf("%c %c",&a_c,&b_c);
         a=change(a_c);
         b=change(b_c);
@@ -46,6 +46,7 @@ int main(){
         if(b_win_most[i]>b_win_most[b_most])
             b_most=i;
     }
+    printf("\n");
     if(a_most==0)printf("B ");
     else if(a_most==1)printf("C ");
     else if(a_most==2)printf("J ");
