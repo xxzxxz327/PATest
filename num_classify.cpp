@@ -15,7 +15,7 @@ int main(){
         }else if(a%5==1){//A2：被５除后余１的数字安给出的顺序交错求和
             count[1]++;
              count_n++;
-            if(count_n%2==0){/
+            if(count_n%2==0){
                 ans[1]-=a;
             }else{ans[1]+=a;}
         }else if(a%5==2){//A2:被５除后余２的数字个数
