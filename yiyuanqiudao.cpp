@@ -2,7 +2,7 @@
 int main(){
     int a[1010]={0};
     int k,e,count=0;
-    while(scanf("%d%d",%k,%e)!=EOF){
+    while(scanf("%d%d",&k,&e)!=EOF){
         a[e]=k;
     }
     a[0]=0;
